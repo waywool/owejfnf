@@ -1028,5 +1028,12 @@ body:after {
   font-size: 20px;
 }
 
-
+.overview{
+  border: 2px solid var(--primary-color);
+  border-radius: var(--border-radius-medium);
+  position: relative;
+  overflow: hidden;
+  padding: 30px;
+  transition: all 0.3s ease;
+}
 
